@@ -20,8 +20,8 @@ export const handler = async (event) => {
     }
 
     const privateKeyPem = fs.readFileSync(
-      path.join(__dirname, '../../keys/private.pem'),
-      'utf8'
+     path.join(process.env.LAMBDA_TASK_ROOT, 'keys/private.pem'),
+     'utf8'
     );
 
     const privateKey = await importPKCS8(

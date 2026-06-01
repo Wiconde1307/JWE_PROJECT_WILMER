@@ -20,7 +20,7 @@ export const handler = async (event) => {
     }
 
     const publicKeyPem = fs.readFileSync(
-      path.join(__dirname, '../../keys/public.pem'),
+     path.join(process.env.LAMBDA_TASK_ROOT, 'keys/public.pem'),
       'utf8'
     );
 
