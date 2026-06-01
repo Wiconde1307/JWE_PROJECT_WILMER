@@ -111,5 +111,5 @@ describe('🔓 jose-decryptor', () => {
 
 # Capturas de test e integracion
 
-![Tests exitosos](docs/images/npm test decryptor.png)
-![integracion](docs/images/test de integracion.png)
+![Tests](docs/images/npm-test-decryptor.png)
+![integracion](docs/images/test-de-integracion.png)
