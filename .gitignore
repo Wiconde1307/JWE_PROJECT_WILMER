@@ -1,0 +1,8 @@
+# dependencias
+node_modules/
+
+# 🔐 llaves privadas
+keys/private.pem
+
+# logs
+*.log
