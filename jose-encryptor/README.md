@@ -236,8 +236,10 @@ Este módulo fue desarrollado siguiendo la metodología **SDD**:
 | `.kiro/specs/design.md` | Arquitectura, flujo y decisiones técnicas |
 | `.kiro/specs/tasks.md` | Tareas de implementación con trazabilidad a RF |
 
-# Capturas de test y funcionamiento
-## 🧪 Resultados de pruebas
 
-![Test](docs/images/npm-test-encryptor.png)
-![Test](docs/images/test-de-integracion.png)
+## 🧪 Resultados de pruebas
+# Capturas de test e integracion
+![Integration Test](docs/images/test-de-integracion.PNG)
+![NPM Test](docs/images/npm-test-encryptor.PNG)
+![AWS](docs/images/encryptor.PNG)
+
