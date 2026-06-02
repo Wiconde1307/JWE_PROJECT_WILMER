@@ -110,6 +110,6 @@ describe('🔓 jose-decryptor', () => {
 }
 
 # Capturas de test e integracion
-
-![Tests](docs/images/npm-test-decryptor.png)
-![integracion](docs/images/test-de-integracion.png)
+![Integration Test](docs/images/test-de-integracion.PNG)
+![NPM Test](docs/images/npm-test-decryptor.PNG)
+![AWS](docs/images/decryptor.PNG)
